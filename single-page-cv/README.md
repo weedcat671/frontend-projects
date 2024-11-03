@@ -1,6 +1,6 @@
 # Single-Page CV
 
-Solution for Single-Page CV project from [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
+Solution for [Single-Page CV](https://roadmap.sh/projects/single-page-cv) project from [roadmap.sh](https://roadmap.sh/)
 
 ### What I've learned from this project
 
