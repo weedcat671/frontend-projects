@@ -12,7 +12,7 @@ Solution for [Single-Page CV](https://roadmap.sh/projects/single-page-cv) projec
 
 ### Disclaimer
 
-All information given in the decision is not genuine!
+All information given in the solution is not genuine!
 
 The favicon was taken from [icons8.com](https://icons8.com/icons/set/favicon)
 
