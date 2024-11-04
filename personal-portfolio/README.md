@@ -10,6 +10,7 @@
 * CSS box model
 * Creating responsive web pages
 * Using Google Fonts
+* Using Google DevTools
 
 ### Disclaimer
 
