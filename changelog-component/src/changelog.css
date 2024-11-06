@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: "Source Sans 3";
+} 
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section.changelog {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    display: column;
+    border: 2px solid black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+h2.changelog-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p.changelog-description {
+    text-align: center;
+}
+
+div.changelog-line {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+}
+
+p.changelog-date {
+    color: #888;
+    width: 35%;
+    text-align: end;
+    position: relative;
+    left: 1%;
+}
+
+p.changelog-info {
+    font-size: 1rem;
+    width: 45%;
+    height: auto;
+    text-align: start;
+    position: relative;
+    left: 10%;
+}
+
+div.changelog-list {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+div.changelog-list::before {
+    content : "";
+    position: absolute;
+    background-color: #000;
+    width: 4px;
+    height: 100%;
+    left: 43%;
+}
+
+div.changelog-line::before {
+    content : "";
+    position: relative;
+    background-color: #000;
+    border: 4px solid black;
+    height: 4px;
+    width: 4px;
+    border-radius: 8px;
+    top: 20px;
+    left: 42.3%;
+}
+
+.button {
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    width: 50%;
+    line-height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    div.changelog-list::before {
+        left: 5.6px;
+    }
+
+    div.changelog-line::before {
+        left: 2px;
+    }
+}
