@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Image Grid Layout
 
 Solution for [Image Grid Layout](https://roadmap.sh/projects/image-grid) project from [roadmap.sh](https://roadmap.sh/)
 
